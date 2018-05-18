@@ -22,9 +22,9 @@
     <link rel="manifest" href="images/favicons/manifest.json">
     <meta name="msapplication-TileImage" content="images/favicons/ms-icon-144x144.png">
 
-    <link rel="stylesheet" href="styles/vendor-8670ee958d.css">
+    <link rel="stylesheet" href="styles/vendor-6c9b3ffefb.css">
 
-    <link rel="stylesheet" href="styles/app-908a6d5c72.css">
+    <link rel="stylesheet" href="styles/app-ffe0a05310.css">
   </head>
   <body translate-cloak>
     <!--[if lt IE 10]>
@@ -33,14 +33,14 @@
 
     <div ng-if="!isLoggedIn && !publicPage" class="layout-loading text-center">
       <mno-loader></mno-loader>
-      <span class="layout-loading-text" translate="mno_enterprise.templates.components.layout.your_dashboard_is_loading"></span>
+      <span class="layout-loading-text" translate ng-cloak>{{ 'mno_enterprise.templates.components.layout.your_dashboard_is_loading' | translate }}</span>
     </div>
 
     <div ui-view class="myspace"></div>
 
-    <script src="scripts/vendor-b81b01f089.js"></script>
+    <script src="scripts/vendor-c7b3378de4.js"></script>
 
-    <script src="scripts/app-47504e6963.js"></script>
+    <script src="scripts/app-cb9d33a0f6.js"></script>
 
     <script src="/mnoe/config.js"></script>
 
